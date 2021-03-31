@@ -28,7 +28,12 @@
         {
             "ruta": "slider",
             "icon": "tune",
-            "texto": "Slider"
+            "texto": "Slider - Checkbox"
+        },
+        {
+            "ruta": "list",
+            "icon": "list",
+            "texto": "Listas - Scroll"
         }
     ]
 }

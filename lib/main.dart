@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/home',
       routes: getAplicationRoutes(),
 
-      // Otra manera de llamar las rutas
+      // El onGenerateRoute se llama cuando la ruta que se llama no está en routes
+      
       // onGenerateRoute: (RouteSettings settings){
       //   print('ruta llamada ${settings.name}');
       //   return MaterialPageRoute(builder: (BuildContext context) => CardPage());
